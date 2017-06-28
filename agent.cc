@@ -3,9 +3,31 @@
 #include "agent.h"
 
 #include "utils.h"
+#include <list>
+#include <random>
 
 Agent::Agent(const Battery* battery, const int* time) :
   battery_(battery), time_(time) {}
+
+Direction Agent::SmartDirection(const Perception& p) {
+    std::vector<Direction> directions = {};
+    if (p.HasObstacle(Direction::UP))
+        directions.push_back(Direction::UP);
+    if (p.HasObstacle(Direction::LEFT))
+        directions.push_back(Direction::LEFT);
+    if (p.HasObstacle(Direction::RIGHT))
+        directions.push_back(Direction::RIGHT);
+    if (p.HasObstacle(Direction::DOWN))
+        directions.push_back(Direction::RIGHT);
+
+    std::random_device random_device;
+    std::mt19937 engine{random_device()};
+    std::uniform_int_distribution<int > dist(0, directions.size() - 1);
+
+    int random_element = (int)directions[dist(engine)];
+    return directions[random_element];
+}
+
 
 Direction Agent::NextDirection(const Perception& p) {
   const float random = Random();

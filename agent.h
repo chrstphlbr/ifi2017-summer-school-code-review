@@ -16,6 +16,9 @@ class Agent {
   // Get the next direction of the agent based on the current perception |p|.
   Direction NextDirection(const Perception& p);
 
+    // alternative function to the random one
+    Direction SmartDirection(const Perception& p);
+
   // Whether the agent has still some battery left.
   bool IsAlive() const;
 

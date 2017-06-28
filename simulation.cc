@@ -10,8 +10,9 @@ void Simulation::Run() {
   while (time_left_ > 0 && agent_.IsAlive()) {
     // Get the agent action based on the perception.
     const Perception& perception = map_.GetAgentPerception();
-    Direction action = agent_.NextDirection(perception);
+//    Direction action = agent_.NextDirection(perception);
 
+      Direction action = agent_.SmartDirection(perception);
     // Update all things.
     map_.Update(action);
     if (map_.AgentAtHome()) {
