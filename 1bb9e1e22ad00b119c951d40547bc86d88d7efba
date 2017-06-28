@@ -1,0 +1,142 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f8790e42_af122777",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1011618
+      },
+      "writtenOn": "2017-06-28T13:42:26Z",
+      "side": 1,
+      "message": "please briefly explain your changes",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 4
+      },
+      "revId": "1bb9e1e22ad00b119c951d40547bc86d88d7efba",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "88b29ddd_ddbdb892",
+        "filename": "agent.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1011618
+      },
+      "writtenOn": "2017-06-28T13:42:26Z",
+      "side": 1,
+      "message": "did you ever use list?",
+      "range": {
+        "startLine": 6,
+        "startChar": 10,
+        "endLine": 6,
+        "endChar": 14
+      },
+      "revId": "1bb9e1e22ad00b119c951d40547bc86d88d7efba",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "45d4f14d_242a7100",
+        "filename": "agent.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1011618
+      },
+      "writtenOn": "2017-06-28T13:42:26Z",
+      "side": 1,
+      "message": "here, it would have been great to quickly document what you are doing, i.e. why this algorithm is smart",
+      "range": {
+        "startLine": 12,
+        "startChar": 17,
+        "endLine": 12,
+        "endChar": 31
+      },
+      "revId": "1bb9e1e22ad00b119c951d40547bc86d88d7efba",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f860397_e686bab9",
+        "filename": "agent.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1011618
+      },
+      "writtenOn": "2017-06-28T13:42:26Z",
+      "side": 1,
+      "message": "what is this package? are we allowed to use it? isn\u0027t there an in-built random function?",
+      "range": {
+        "startLine": 24,
+        "startChar": 9,
+        "endLine": 24,
+        "endChar": 16
+      },
+      "revId": "1bb9e1e22ad00b119c951d40547bc86d88d7efba",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "72b18f08_318ab67d",
+        "filename": "agent.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1011618
+      },
+      "writtenOn": "2017-06-28T13:42:26Z",
+      "side": 1,
+      "message": "what does this do?",
+      "range": {
+        "startLine": 25,
+        "startChar": 9,
+        "endLine": 25,
+        "endChar": 33
+      },
+      "revId": "1bb9e1e22ad00b119c951d40547bc86d88d7efba",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4a13f186_42e9c144",
+        "filename": "simulation.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1011618
+      },
+      "writtenOn": "2017-06-28T13:42:26Z",
+      "side": 1,
+      "message": "wonderful!",
+      "range": {
+        "startLine": 15,
+        "startChar": 6,
+        "endLine": 15,
+        "endChar": 15
+      },
+      "revId": "1bb9e1e22ad00b119c951d40547bc86d88d7efba",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
