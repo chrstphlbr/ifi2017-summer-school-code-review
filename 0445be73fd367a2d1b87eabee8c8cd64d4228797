@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "430188cf_9e3a4fd0",
+        "filename": "agent.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1011618
+      },
+      "writtenOn": "2017-06-28T13:57:05Z",
+      "side": 1,
+      "message": "The behavior is still random! How do you want to improve the agent?",
+      "revId": "0445be73fd367a2d1b87eabee8c8cd64d4228797",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "37fe7ca1_d52a1001",
+        "filename": "agent.cc",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1011618
+      },
+      "writtenOn": "2017-06-28T13:57:05Z",
+      "side": 1,
+      "message": "What does it do?",
+      "revId": "0445be73fd367a2d1b87eabee8c8cd64d4228797",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
