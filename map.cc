@@ -33,6 +33,14 @@ Map::Map(int x_size, int y_size) :
   }
 }
 
+int Map::Xsize() {
+  return this->x_size_;
+}
+
+int Map::Ysize() {
+  return this->y_size_;
+}
+
 void Map::SetObstacle(int x, int y) {
   obstacles_map_.Set(x, y, 1);
 }

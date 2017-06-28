@@ -47,6 +47,9 @@ class Map {
   // Reset the dirt counter for cleaned ratio.
   void SetDirtCount();
 
+  int Xsize();
+  int Ysize();
+
  private:
   // Sets the agent and the charging stations to a free cell.
   bool InitAgentAndChargingStation();

@@ -11,7 +11,9 @@ using std::cout;
 using std::endl;
 
 int main() {
-  Map map = Map::TwoRoomsMap();
+  const int x_size = 10;
+  const int y_size = 20;
+  Map map = Map::TwoRoomsMap(x_size, y_size);
   Simulation simulation(map);
   simulation.Run();
   cout << "Score: " << simulation.GetAgentScore() << endl;

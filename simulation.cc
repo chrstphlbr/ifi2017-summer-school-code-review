@@ -4,7 +4,7 @@
 
 Simulation::Simulation(const Map& map) : time_left_(100),
                                          battery_(100),
-                                         agent_(&battery_, &time_left_),
+                                         agent_(&battery_, &time_left_, m->Xsize(), m->Ysize()),
                                          map_(map) {}
 void Simulation::Run() {
   while (time_left_ > 0 && agent_.IsAlive()) {
