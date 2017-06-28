@@ -33,6 +33,29 @@
       "revId": "0445be73fd367a2d1b87eabee8c8cd64d4228797",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "125fb4c6_a7c1ffec",
+        "filename": "agent.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1011639
+      },
+      "writtenOn": "2017-06-28T14:04:04Z",
+      "side": 1,
+      "message": "let\u0027s not change the Agent() interface, the robot will have to work outside the sim environment, too",
+      "range": {
+        "startLine": 15,
+        "startChar": 47,
+        "endLine": 15,
+        "endChar": 48
+      },
+      "revId": "0445be73fd367a2d1b87eabee8c8cd64d4228797",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
